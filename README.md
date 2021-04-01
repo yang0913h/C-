@@ -1,7 +1,8 @@
 C#
 how to transfer large-size(.tiff) image to (.png) in C#
-image-size : (30000px*20000px) 2.2MB
+image-size : (30000px*20000px)  2.2MB ->(30000px*20000px) 
 i try this,but bitmap limit (15722*15722);
+
             foreach (string fname in System.IO.Directory.GetFileSystemEntries(savePath + "img_data/", "*.tif"))  //fname 該資料夾下的檔案絕對路徑
             {
                 string main_filename = Path.GetFileNameWithoutExtension(fname);  // 抓主檔名   
